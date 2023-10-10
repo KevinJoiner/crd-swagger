@@ -1,3 +1,9 @@
+---
+
+⚠️ This Project has been transfered to https://github.com/rancher/crd-swagger
+
+---
+
 # crd-swagger
 Generates a [Swagger](https://swagger.io/docs/) (openapiv2) document for [Custom Resource Definitions](https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/) (CRDs) installed and accessed through kube-apiserver.
 The generated swagger is the same document that you would get from the [openapiv2 endpoint](https://kubernetes.io/docs/concepts/overview/kubernetes-api/#openapi-v2) on a cluster, except the returned swagger document only includes paths and definitions used by the provided CRDs.
